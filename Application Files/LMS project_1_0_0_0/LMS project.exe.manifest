@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LMS project.exe" version="1.0.0.0" publicKeyToken="af6389df6e67c480" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LMS project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LMS project.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DocumentFormat.OpenXml.dll" size="6338912">
+      <assemblyIdentity name="DocumentFormat.OpenXml" version="3.0.0.0" publicKeyToken="8FB06CB64D019A17" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Lx32AxNdxK0VR94xdk0A0Vx725jq2VgH7K5PdPCnjwo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DocumentFormat.OpenXml.Framework.dll" size="461792">
+      <assemblyIdentity name="DocumentFormat.OpenXml.Framework" version="3.0.0.0" publicKeyToken="8FB06CB64D019A17" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>q7ePSSqCDy2P0lJmK+I6H2LVCga1fmVuoEXXjDKtA9k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LMS project.exe" size="3689528">
+      <assemblyIdentity name="LMS project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TcDHmPS+NcVKYYv6fQ4e7AZQLBaIWCNqyxpjQhyA2/U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="libaray.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lGPn9fFyTWB8Wo/e8MYV0p/hHpYzo+qqdP7Jqur8Zs4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libaray_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5oJ4oiC4nIzizbPzOy3aIVc/XEVpkcz2BXbi1NEIARo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LMS project.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-FURQAN1\Dr. Shafquat Hussain" issuerKeyHash="a41b8b4f4a14f11a6b1ba7f9f2b38c7a9c47c673" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>aAlnMvfou8rSVzlxvekh6PiWlS8YbauoJyaEt5STCMk=</DigestValue></Reference></SignedInfo><SignatureValue>PjV9LJSEfFv0SWRKpPNVBcrXVxDJ6JvI1IA7w3hNuz5KX5DUTTcfFN4iA9BVm+OK13x+3t4qVepQZEgXdxUuX51n6e3NGuZqkNFxco5tbFhu3k8tT/UtlNjdNjUIugtPKkp/083H9O6Ai0E4paHLAzykAt9RG9mEtLemXscq1QY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>svxyTRJwi+J0x19Najna0J9kcgmxVJdKWMZAGJmQ2kOtzT7oaP3kMblmvyruGfy9wpgo7ZYoVlelLZHljuIN6oKF0AvakTbFqJZcc7Js659xYD37K9e/xoyj6H7slH5Idr9viWM0NB3POPl0q5JPKG9ATwM80zUd5RtgKzr2wuE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c9089394b7842627a8ab6d182f9596f8e821e9bd713957d2cabbe8f732670968" Description="" Url=""><as:assemblyIdentity name="LMS project.exe" version="1.0.0.0" publicKeyToken="af6389df6e67c480" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-FURQAN1\Dr. Shafquat Hussain</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>D+aTRjyAevRlPFXnEOdgMPxkoe0qO1T4Jd1r0dOHQCs=</DigestValue></Reference></SignedInfo><SignatureValue>q/JfiXo/Fa674YKOvORuQ08UOpocIKGQJUoUEAjc/KG18/Di1pJ2GqZTWETe6U0o+jHtLpc6XWvgy7CTsTTMgzKy7mU7v0NVJ+SFc5pYIZ6xMDrwsg/9mGMRw50fKO519yH0EHSvD7+ym2SQ8+gqg8TVLvGU8soRk5C9nDsUvC4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>svxyTRJwi+J0x19Najna0J9kcgmxVJdKWMZAGJmQ2kOtzT7oaP3kMblmvyruGfy9wpgo7ZYoVlelLZHljuIN6oKF0AvakTbFqJZcc7Js659xYD37K9e/xoyj6H7slH5Idr9viWM0NB3POPl0q5JPKG9ATwM80zUd5RtgKzr2wuE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICKTCCAZKgAwIBAgIQF1PbZu3l8KpKfbhpvfKVMjANBgkqhkiG9w0BAQsFADBTMVEwTwYDVQQDHkgARABFAFMASwBUAE8AUAAtAEYAVQBSAFEAQQBOADEAXABEAHIALgAgAFMAaABhAGYAcQB1AGEAdAAgAEgAdQBzAHMAYQBpAG4wHhcNMjQwMTAyMTYzNTEwWhcNMjUwMTAxMjIzNTEwWjBTMVEwTwYDVQQDHkgARABFAFMASwBUAE8AUAAtAEYAVQBSAFEAQQBOADEAXABEAHIALgAgAFMAaABhAGYAcQB1AGEAdAAgAEgAdQBzAHMAYQBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALL8ck0ScIvidMdfTWo52tCfZHIJsVSXSljGQBiZkNpDrc0+6Gj95DG5Zr8q7hn8vcKYKO2WKFZXpS2R5Y7iDeqChdAL2pE2xaiWXHOybOufcWA9+yvXv8aMo+h+7JR+SHa/b4ljNDQdzzj5dKuSTyhvQE8DPNM1HeUbYCs69sLhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAQ4ZtCWazL5NH++l6CMvgfkp3vGBJqJn1mIZ/yrP8+zLc60Xpvi11IlnCGG+85lJuXd99cRs3p07SQXogxLn8vLxNjExiimwmT8b4fxCLhxY8uTF6fk3D3yOApd362zGah/bqSBNVIbt/ISdWj+9KpnMdZAT2neHVcdHJMHE4FUI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
